@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lote #AR-CBA-042 | Trazabilidad Café</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="nav-extended brown darken-3">
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo"><i class="material-icons">coffee_maker</i> Café Trazable</a>
+        <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html">Inicio</a></li>
+          <li class="active"><a href="lote.html">Lote</a></li>
+          <li><a href="consulta.html">Consulta</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="index.html"><i class="material-icons">home</i>Inicio</a></li>
+      <li class="active"><a href="lote.html"><i class="material-icons">inventory_2</i>Lote</a></li>
+      <li><a href="consulta.html"><i class="material-icons">search</i>Consulta</a></li>
+    </ul>
+  </header>
+
+  <main class="container">
+    <section class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Lote #AR-CBA-042 
+              <span class="new badge green" data-badge-caption="Verificado"></span>
+            </span>
+            
+            <!-- Chips de info rápida -->
+            <div style="margin-bottom: 1.5rem;">
+              <div class="chip">Variedad: Caturra</div>
+              <div class="chip">Altitud: 1200 msnm</div>
+              <div class="chip">Proceso: Lavado</div>
+            </div>
+
+            <div class="tabla-responsive-wrap">
+              <table class="striped highlight responsive-table">
+                <thead>
+                  <tr>
+                    <th>Origen / Finca</th>
+                    <th>Fecha Cosecha</th>
+                    <th>Peso Neto</th>
+                    <th>Estado Actual</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Calamuchita, Córdoba - Finca Los Nogales</td>
+                    <td>15/03/2026</td>
+                    <td>60 kg</td>
+                    <td><span class="brown white-text" style="padding: 0.3rem 0.6rem; border-radius: 0.25rem; font-size: 0.85rem;">Tostado Medio</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="card-action">
+            <a href="#" class="brown-text">Descargar Certificado PDF</a>
+            <a href="consulta.html" class="brown-text">Consultar otro lote</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  </footer>
+</body>
+</html>
