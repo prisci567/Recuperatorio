@@ -1,0 +1,53 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5; /* grey lighten-4 de Materialize */
+}
+
+main {
+  flex: 1 0 auto; 
+  padding: 3rem 0; 
+}
+nav.nav-extended {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+card-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+footer.page-footer {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.tabla-responsive-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+.container {
+  width: 90%;
+  max-width: 75rem; /* 1200px */
+}
+
+nav ul li.active a {
+  background-color: rgba(255,255,255,0.16);
+}
