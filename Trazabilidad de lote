@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio | Trazabilidad Café</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="nav-extended brown darken-3">
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo"><i class="material-icons">coffee_maker</i> Café Trazable</a>
+        <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="active"><a href="index.html">Inicio</a></li>
+          <li><a href="lote.html">Lote</a></li>
+          <li><a href="consulta.html">Consulta</a></li>
+        </ul>
+      </div>
+      <div class="nav-content container">
+        <span class="nav-title">Seguimiento de grano a taza</span>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-nav">
+      <li><div class="user-view brown darken-3 white-text" style="padding: 2rem 1rem;">
+        <span class="name">Trazabilidad</span>
+        <span class="email">Café de Origen</span>
+      </div></li>
+      <li class="active"><a href="index.html"><i class="material-icons">home</i>Inicio</a></li>
+      <li><a href="lote.html"><i class="material-icons">inventory_2</i>Lote</a></li>
+      <li><a href="consulta.html"><i class="material-icons">search</i>Consulta</a></li>
+    </ul>
+  </header>
+
+  <main class="container">
+    <section class="row">
+      <div class="col s12">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200" alt="Granos de café">
+            <span class="card-title">Trazabilidad del Café</span>
+          </div>
+          <div class="card-content">
+            <p>
+              La trazabilidad del café es un sistema que documenta cada etapa del producto: desde la finca donde se cultivó, 
+              pasando por el beneficio húmedo, secado, trillado, tueste, empaque y distribución, hasta llegar al consumidor final.
+            </p>
+            <p>
+              Con esto se asegura <strong>transparencia, calidad y autenticidad</strong>. Podés verificar el origen, la fecha de cosecha 
+              y todos los procesos a los que fue sometido cada lote.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="lote.html" class="brown-text text-darken-3">Ver ejemplo de lote <i class="material-icons tiny">arrow_forward</i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 cards de beneficios -->
+      <div class="col s12 m4">
+        <div class="card center-align">
+          <div class="card-content">
+            <i class="large material-icons brown-text">verified</i>
+            <span class="card-title">Origen Garantizado</span>
+            <p>Conocé la finca exacta y el productor de tu café.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card center-align">
+          <div class="card-content">
+            <i class="large material-icons brown-text">event</i>
+            <span class="card-title">Fechas Reales</span>
+            <p>Cosecha, tueste y vencimiento 100% verificables.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card center-align">
+          <div class="card-content">
+            <i class="large material-icons brown-text">eco</i>
+            <span class="card-title">Procesos Claros</span>
+            <p>Secado, fermentación y tipo de tueste documentados.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer brown darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Café Trazable</h5>
+          <p class="grey-text text-lighten-4">Proyecto académico de desarrollo web. Río Tercero, Córdoba.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="index.html">Inicio</a></li>
+            <li><a class="grey-text text-lighten-3" href="lote.html">Lote</a></li>
+            <li><a class="grey-text text-lighten-3" href="consulta.html">Consulta</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center-align">
+        © 2026 Café Trazable
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+</body>
+</html>
